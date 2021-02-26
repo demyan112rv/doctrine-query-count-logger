@@ -1,0 +1,23 @@
+{
+  "name": "demyan112rv/doctrine-query-count-logger",
+  "license": "MIT",
+  "description": "Query Count Logger for Doctrine",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Demyanovsky Ruslan",
+      "email": "demyan112rv@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Demyan112rv\\DoctrineQueryCountLogger\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "doctrine/dbal": "^2.3"
+  },
+  "require-dev": {
+  }
+}

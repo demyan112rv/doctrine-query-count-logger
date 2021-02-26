@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+    php:
+        container_name: dqcl_php
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - .:/var/www/doctrine-query-count-logger
